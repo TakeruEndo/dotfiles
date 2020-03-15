@@ -36,6 +36,13 @@ vimフォルダのツリー表示
 ?
 
 ```
+# zshrc
+以下の設定を参考にした
+https://gist.github.com/mollifier/4979906
+
+## zplug
+必要になったらzplugかzinitを入れる
+https://qiita.com/Jung0/items/300f8b83520e56766f22
 
 ### 参照
 #### もっとも参考にした
@@ -48,4 +55,6 @@ vimフォルダのツリー表示
 - https://github.com/preservim/nerdtree
 #### vimPlugのリポジトリ
 - https://github.com/junegunn/vim-plug
-
+#### zsh設定関係
+- https://qiita.com/ktr_type23/items/3eb782f98c7a5f4c60b0
+- https://qiita.com/hiroyuki827/items/4e87ce517a4894f092e8
