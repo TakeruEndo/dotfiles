@@ -14,7 +14,8 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'vim-scripts/AnsiEsc.vim'
 " 行末の半角スペースを可視化
 Plug 'bronson/vim-trailing-whitespace'
-
+"コードのスタイルチェックを自動で行う"
+Plug 'scrooloose/syntastic'
 call plug#end()
 """"""""""""""""""""""""""""""
 

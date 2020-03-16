@@ -122,6 +122,11 @@ setopt extended_glob
 # ^R で履歴検索をするときに * でワイルドカードを使用出来るようにする
 bindkey '^R' history-incremental-pattern-search-backward
 
+bindkey -v
+
+# NERDTreeをCtrl+nで開くようにする
+# map <C-n> :NERDTreeToggl<CR>  
+
 ########################################
 # エイリアス
 
@@ -143,6 +148,30 @@ alias -g G='| grep'
 
 alias jn='jupyter-notebook'
 alias jl='jupyter-lab'
+
+# エイリアス
+alias his='history'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias e="emacs"
+alias v='vim'
+alias vi='vim'
+alias mss='mysql.server start'
+alias so='source'
+alias be='bundle exec'
+alias ber='bundle exec ruby'
+
+# エイリアス: git 系
+alias g='git'
+alias gs='git status'
+alias gb='git branch'
+alias gc='git checkout'
+alias gct='git commit'
+alias gg='git grep'
+alias ga='git add'
+alias gd='git diff'
+alias gl='git log'
+alias gcma='git checkout master'
 
 # C で標準出力をクリップボードにコピーする
 # mollifier delta blog : http://mollifier.hatenablog.com/entry/20100317/p1

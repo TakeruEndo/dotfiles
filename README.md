@@ -34,8 +34,22 @@ vimフォルダのツリー表示
 :q
 コマンド確認
 ?
-
 ```
+
+# vim
+## 一括処理
+```
+Ctrl + v :visulaモード
+shift + i: 挿入モード
+文字入力
+Escで戻る
+
+# 一括コメントアウト(plugin導入ずみ)
+範囲選択
+Ctrl + - を２回入力
+```
+
+
 # zshrc
 以下の設定を参考にした
 https://gist.github.com/mollifier/4979906
